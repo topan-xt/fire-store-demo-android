@@ -1,6 +1,6 @@
-package net.topan_xt.boilerplate.app.module.launcher;
+package net.topan_xt.firestoredemo.app.module.launcher;
 
-import net.topan_xt.boilerplate.app.module.base.view.BaseView;
+import net.topan_xt.firestoredemo.app.module.base.view.BaseView;
 
 /*************************************************
  * Author     : Topan E.                         *

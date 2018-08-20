@@ -1,4 +1,4 @@
-package net.topan_xt.boilerplate.app.module.base.view;
+package net.topan_xt.firestoredemo.app.module.base.view;
 
 import android.app.Activity;
 

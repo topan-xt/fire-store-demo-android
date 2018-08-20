@@ -1,4 +1,4 @@
-package net.topan_xt.boilerplate;
+package net.topan_xt.firestoredemo;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package net.topan_xt.boilerplate.app.module.base.activity;
+package net.topan_xt.firestoredemo.app.module.base.activity;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -9,7 +9,7 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
 
-import net.topan_xt.boilerplate.app.module.base.view.BaseView;
+import net.topan_xt.firestoredemo.app.module.base.view.BaseView;
 
 /*************************************************
  * Author     : Topan E.                         *

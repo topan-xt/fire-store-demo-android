@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="net.topan_xt.boilerplate">
+    package="net.topan_xt.firestoredemo">
 
     <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
     <uses-permission android:name="android.permission.INTERNET"/>
@@ -11,7 +11,7 @@
         android:name=".app.App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="SAMPLE BOILER PLATE"
+        android:label="Firestore Demo"
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         tools:replace="android:label"
@@ -23,6 +23,4 @@
             </intent-filter>
         </activity>
     </application>
-
-
 </manifest>

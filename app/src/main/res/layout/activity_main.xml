@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="net.topan_xt.boilerplate.app.module.launcher.MainActivity">
+    tools:context="net.topan_xt.firestoredemo.app.module.launcher.LauncherActivity">
 
     <TextView
         android:layout_width="wrap_content"

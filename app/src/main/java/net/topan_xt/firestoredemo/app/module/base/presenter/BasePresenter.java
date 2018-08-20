@@ -1,10 +1,8 @@
-package net.topan_xt.boilerplate.app.module.base.presenter;
+package net.topan_xt.firestoredemo.app.module.base.presenter;
 
 import android.support.annotation.CallSuper;
 
-import net.topan_xt.boilerplate.app.module.base.view.BaseView;
-import net.topan_xt.boilerplate.repository.api.ClientAPI;
-import net.topan_xt.boilerplate.repository.api.ServiceAPI;
+import net.topan_xt.firestoredemo.app.module.base.view.BaseView;
 
 /*************************************************
  * Author     : Topan E.                         *
@@ -13,16 +11,16 @@ import net.topan_xt.boilerplate.repository.api.ServiceAPI;
  *************************************************/
 
 public abstract class BasePresenter<V extends BaseView> {
-    public final String     TAG         = getClass().getSimpleName();
-    public       ServiceAPI mServiceApi = ClientAPI.getClient().create(ServiceAPI.class);
+    public final String TAG = getClass().getSimpleName();
     private V mView;
+
+    protected V getView() {
+        return mView;
+    }
 
     @CallSuper
     public void setView(V mView) {
         this.mView = mView;
-    }
-    protected V getView() {
-        return mView;
     }
 
 }

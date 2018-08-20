@@ -1,4 +1,4 @@
-package net.topan_xt.boilerplate.shared;
+package net.topan_xt.firestoredemo.shared;
 
 /*************************************************
  * Author     : Topan E.                         *

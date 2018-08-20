@@ -1,9 +1,9 @@
-package net.topan_xt.boilerplate.app.module.launcher;
+package net.topan_xt.firestoredemo.app.module.launcher;
 
 import android.os.Bundle;
 
-import net.topan_xt.boilerplate.R;
-import net.topan_xt.boilerplate.app.module.base.activity.BaseActivity;
+import net.topan_xt.firestoredemo.R;
+import net.topan_xt.firestoredemo.app.module.base.activity.BaseActivity;
 
 public class LauncherActivity extends BaseActivity implements LauncherView {
 

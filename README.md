@@ -1,1 +1,1 @@
-# android-mvp-boiler-plate
+# fire-store-demo-android

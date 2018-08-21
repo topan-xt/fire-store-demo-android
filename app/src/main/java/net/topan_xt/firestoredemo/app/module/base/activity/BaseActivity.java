@@ -38,36 +38,14 @@ public class BaseActivity extends AppCompatActivity implements BaseView {
     }
 
     @Override
-    public void showProgressDialog(String message) {
-        if (mProgressDialog == null) {
-            mProgressDialog = new ProgressDialog(this);
-            mProgressDialog.setCancelable(false);
-            mProgressDialog.setIndeterminate(true);
-            mProgressDialog.setMessage(message);
-        }
-        mProgressDialog.show();
-    }
-
-    @Override
-    public void dismissProgressDialog() {
-        if (mProgressDialog != null) {
-            mProgressDialog.dismiss();
-        }
-    }
-
-    @Override
-    public void showToast(String message) {
+    public void onSuccess(String message) {
         Toast.makeText(this, ""+message, Toast.LENGTH_SHORT).show();
     }
 
     @Override
-    public void showAlertDialog(String message) {
-        AlertDialog.Builder alertDialog = new AlertDialog.Builder(getContext());
-        alertDialog.setMessage(message);
-        alertDialog.setPositiveButton("OK", (dialog, which) -> {
-        });
-        final AlertDialog dialog = alertDialog.create();
-        dialog.show();
+    public void onFailed(String message) {
+        Toast.makeText(this, ""+message, Toast.LENGTH_SHORT).show();
+
     }
 
     @Override

@@ -10,14 +10,7 @@ import android.app.Activity;
 
 public interface BaseView {
     void initToolbar(String title, int setDisplayShowHomeEnabled);
-
-    void showProgressDialog(String message);
-
-    void dismissProgressDialog();
-
-    void showToast(String message);
-
-    void showAlertDialog(String message);
-
+    void onSuccess(String message);
+    void onFailed(String message);
     Activity getContext();
 }

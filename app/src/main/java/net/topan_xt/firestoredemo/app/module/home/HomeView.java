@@ -1,4 +1,4 @@
-package net.topan_xt.firestoredemo.app.module.launcher;
+package net.topan_xt.firestoredemo.app.module.home;
 
 import net.topan_xt.firestoredemo.app.module.base.view.BaseView;
 
@@ -8,5 +8,5 @@ import net.topan_xt.firestoredemo.app.module.base.view.BaseView;
  * Created on : Jun 06, 2018.                    *
  *************************************************/
 
-public interface LauncherView extends BaseView {
+public interface HomeView extends BaseView {
 }

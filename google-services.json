@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "383959452245",
+    "firebase_url": "https://firestore-demo-9a2ba.firebaseio.com",
+    "project_id": "firestore-demo-9a2ba",
+    "storage_bucket": "firestore-demo-9a2ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:383959452245:android:0e17f62f388bb345",
+        "android_client_info": {
+          "package_name": "net.topan_xt.firestoredemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "383959452245-r6rrlhhb90d60ifdp35e5q2eisc2l52s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrnApb1ruf-utZ40RMAQJk8uddK70ZXxI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
